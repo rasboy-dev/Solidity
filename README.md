@@ -4,6 +4,7 @@ This is my smart contract. It can CRUD records. Each record has description and 
 
 Functions:
 getRecordFifeTime(uint ID) - get life time.
+
 getRecordDescription(uint ID) - get description.
 getAllRecords() - return all records.
 checkRecordsAlive() - find and delete records with elapsed time. Called every transaction (in each function).
